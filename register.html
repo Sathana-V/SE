@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<style>
+    body, html {
+
+  
+   
+    background:url('https://thumbs.dreamstime.com/b/iv-drip-background-blurred-hospital-ward-concept-serenity-58687572.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+    }
+      
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a target="_self" style="color:aliceblue;  font-size:30px; font-weight: bolder;font-family: URW Chancery L, cursive">Hospital Management</a>
+           
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 ml-3 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html" target="_blank" >HOME</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="register.html"  target="_parent">Register</a>
+              
+              </li>
+              <li class="nav-item">
+                <a href="Histroy.html" target="_self" class="nav-link active">Histroy</a>
+                </li>
+                <li class="nav-item">
+                  <a  class="nav-link active" href="#cat"></a> 
+                </li>
+              
+             
+            </ul>
+            <form class="d-flex">
+                <a  class="nav-link active" style="color:aliceblue"href="login.html">Logout</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="bg">
+        <div class="container">
+   
+            <form>
+                <div class="card" style="margin-top:3%;">
+                    <h4 style="text-align: center;margin-top:4%">MAKE RESERVATION</h4>
+                <div class="form-row" style="margin-left:8%;">
+                    <div class="form-group col-sm-10" style="margin-top:3%;">
+                       
+                        <input type="text" class="form-control" placeholder="First Name">
+                     </div>
+                    <div class="form-group col-sm-10" style="margin-top:3%;">
+                       
+                         <input type="text" class="form-control" placeholder="Last Name">
+                      </div>
+                      <div class="form-group col-sm-10" style="margin-top:3%;">
+                       
+                        <input type="text" class="form-control" placeholder="Phone Number">
+                     </div>
+                     <div class="form-group col-sm-10" style="margin-top:3%;">
+                       
+                        <input type="text" class="form-control" placeholder="Address 1">
+                     </div>
+                     <div class="form-group col-sm-10" style="margin-top:3%;">
+            
+                        <input type="text" class="form-control" placeholder="Address 2">
+                     </div>
+                     <div class="form-group col-sm-10" style="margin-top:3%;">
+            
+                        <input type="text" class="form-control" placeholder="City">
+                     </div>
+                     <div class="form-group col-sm-10" style="margin-top:3%;">
+            
+                        <input type="text" class="form-control" placeholder="State">
+                     </div>
+                      <div class="form-group col-sm-10" style="margin-top:3%;">
+                        <label>Date of Birth</label>
+                         <input type="date" class="form-control" placeholder="Date of Birth">
+                      </div>
+                     
+                      <div class="form-group col-sm-10" style="margin-top:3%;">
+                       
+                         <select  class="form-select" aria-label="Default select example">
+                            <option>TIME</option>
+                            <option>12pm</option>
+                            <option>11pm</option>
+                            <option>10pm</option>
+                            <option>9pm</option>
+                            <option>10pm</option>
+                            <option>7pm</option>
+                            <option>6pm</option>
+                            <option>5pm</option>
+                            <option>4pm</option>
+                            <option>3pm</option>
+                            <option>2pm</option>
+                            <option>1pm</option>
+                            <option>12am</option>
+                            <option>11am</option>
+                            <option>10am</option>
+                            <option>9am</option>
+                            <option>10am</option>
+                            <option>7am</option>
+                            <option>6am</option>
+                            <option>5am</option>
+                            <option>4am</option>
+                            <option>3am</option>
+                            <option>2am</option>
+                            <option>1am</option>
+                           
+                          </select>
+                      </div>
+                      <div class="form-group col-sm-10" style="margin-top:3%;">
+                        
+                          <select  class="form-select" aria-label="Default select example" required>
+                            <option>Gender</option>
+                           <option value="Male">Male</option>
+                           <option value="Female">Female</option>
+                           <option value="Other">Other</option>
+                        
+            
+                        </select>
+                      </div>
+                      <div class="form-group col-sm-10" style="margin-top:3%;">
+                        
+                        <select  class="form-select" aria-label="Default select example" required>
+                          <option>Patient Type</option>
+                         <option value="Inpatient">Inpatient</option>
+                         <option value="Outpatient">Outpatient</option>
+                      
+                      
+          
+                      </select>
+                    </div>
+                      <div class="form-group col-sm-10" style="margin-top:3%;">
+            
+                        <input type="text" class="form-control" placeholder="Visiting Doctor">
+                     </div>
+                      <div class="form-group col-sm-10" style="margin-top:3%;">
+                      
+                        <input type="text" class="form-control" placeholder="Reason for Registration">
+                   </div>
+                      
+            </div>
+          
+            <button style="margin-top:6%" type="button" class="btn btn-dark btn-lg btn-block">Register</button>
+           
+              </form>
+        </div>
+          
+     </div>
+    
+
+      </div>
+ 
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</html>
